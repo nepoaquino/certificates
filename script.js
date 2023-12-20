@@ -24,10 +24,6 @@ closeLightbox.addEventListener("click", () => {
   lightbox.style.display = "none";
 });
 
-//   lightbox.addEventListener("click", () => {
-//     lightbox.style.display = "none";
-//   });
-
 prevButton.addEventListener("click", (e) => {
   e.stopPropagation(); // Prevent the click event from bubbling up
   if (currentImageIndex > 0) {
